@@ -1,8 +1,8 @@
-FitFule - Calorie & Nutrient Counter App
+# FitFule - Calorie & Nutrient Counter App
 
 FitFule is a modern Android application designed to help users track their daily nutrition and reach their fitness goals. Built natively using Java and XML, the app features user authentication, profile onboarding, personalized goal calculations, and a comprehensive tracking dashboard.
 
-🚀 Features
+## 🚀 Features
 
 User Authentication: Secure user registration and login screens powered by Firebase Authentication.
 
@@ -16,7 +16,7 @@ Intuitive Navigation: Features a native Navigation Drawer providing quick access
 
 Modern Dashboard UI: A clean, easy-to-read dashboard tracking remaining calories along with real-time target progress for Protein, Carbohydrates, and Fats.
 
-🛠️ Tech Stack & Architecture
+## 🛠️ Tech Stack & Architecture
 
 Language: Java (JDK 17+)
 
@@ -25,11 +25,3 @@ UI Design: XML (utilizing ConstraintLayout, LinearLayout, CardView, and Material
 Database & Auth: Firebase Authentication & Google Cloud Firestore
 
 IDE: Android Studio
-
-📦 Prerequisites & Installation
-
-To run this project locally, you will need to add it to your Android Studio workspace and link your own Firebase project.
-
-1. Clone the repository
-
-git clone [https://github.com/YOUR_USERNAME/FitFule.git](https://github.com/YOUR_USERNAME/FitFule.git)

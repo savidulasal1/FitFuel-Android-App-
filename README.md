@@ -1,32 +1,35 @@
-FitFule - Personalized Calorie Counter
+FitFule - Calorie & Nutrient Counter App
 
-FitFule is a lightweight, intuitive Android application designed to help users track their daily nutrition and maintain their fitness goals. By collecting simple biometric data, the app dynamically calculates personalized daily calorie and macronutrient targets to keep users on track.
+FitFule is a modern Android application designed to help users track their daily nutrition and reach their fitness goals. Built natively using Java and XML, the app features user authentication, profile onboarding, personalized goal calculations, and a comprehensive tracking dashboard.
 
-Features
+🚀 Features
 
-User Authentication: Secure registration and login powered by Firebase Authentication.
+User Authentication: Secure user registration and login screens powered by Firebase Authentication.
 
-Personalized Goal Calculation: Uses the Mifflin-St Jeor equation to calculate accurate Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE).
+Personalized Goal Setup: Collects user onboarding metrics (Age, Gender, Height, Weight, and Activity Level) to calculate custom fitness metrics.
 
-Profile Setup: Collects user metrics including Name, Age, Gender, Height, Weight, and Activity Level.
+TDEE & BMR Calculation: Automated calculation of maintenance calories and macronutrient splits utilizing the scientifically recognized Mifflin-St Jeor equation.
 
-Real-time Database: Syncs and stores user profiles securely in Firebase Firestore.
+Cloud Profile Storage: Saves user profile setups securely in the cloud via Firebase Firestore.
 
-Modern Dashboard: Features a clean, scrollable UI with a navigation drawer, custom macronutrient tracking cards (Protein, Carbs, Fats), and an option to log daily food intake.
+Intuitive Navigation: Features a native Navigation Drawer providing quick access to the Profile, Log, and Help options.
 
-Tech Stack
+Modern Dashboard UI: A clean, easy-to-read dashboard tracking remaining calories along with real-time target progress for Protein, Carbohydrates, and Fats.
 
-Language: Java
+🛠️ Tech Stack & Architecture
 
-UI/Layout: XML (with ConstraintLayout, LinearLayout, CardView, and Material Design components)
+Language: Java (JDK 17+)
 
-Backend Services: Firebase Auth & Firebase Firestore Cloud Database
+UI Design: XML (utilizing ConstraintLayout, LinearLayout, CardView, and Material Design components)
 
-Development Environment: Android Studio
+Database & Auth: Firebase Authentication & Google Cloud Firestore
 
-Step-by-Step Setup Instructions
+IDE: Android Studio
 
-1. Clone the Repository
+📦 Prerequisites & Installation
+
+To run this project locally, you will need to add it to your Android Studio workspace and link your own Firebase project.
+
+1. Clone the repository
 
 git clone [https://github.com/YOUR_USERNAME/FitFule.git](https://github.com/YOUR_USERNAME/FitFule.git)
-

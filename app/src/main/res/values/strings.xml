@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fitfule1</string>
+    <string name="login">Login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="register">Register</string>
+    <string name="activity_level_prompt">activity_level_prompt</string>
+    <string name="click_to_login">click to login</string>
+    <string name="click_to_register">click to register</string>
+</resources>

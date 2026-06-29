@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="activity_levels">
+        <item>Sedentary (Little to no exercise)</item>
+        <item>Lightly Active (1-3 days/week)</item>
+        <item>Moderately Active (3-5 days/week)</item>
+        <item>Very Active (6-7 days/week)</item>
+        <item>Extra Active (Physical job/training)</item>
+    </string-array>
+</resources>

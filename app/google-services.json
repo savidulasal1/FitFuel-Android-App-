@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "482894769371",
+    "project_id": "fitfule1",
+    "storage_bucket": "fitfule1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482894769371:android:bda783e2d52f9e1aacb0fe",
+        "android_client_info": {
+          "package_name": "com.example.fitfule1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmoANRPEwzwFIve8OCaR7CaX29gN-wmi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
